@@ -3,7 +3,7 @@ An adidas autocheckout script using python and webdriver.
 
 This script requires python and chrome webdriver.
 
-1. Download the repository to your desired location.
+1. Download the script to your desired location.
 	
 2. Unzip the file.
 	
