@@ -213,7 +213,7 @@ for order in orders:
                 driver.find_element_by_name("dwfrm_login_login").click()
                 Test = driver.current_url
                 if Test == 'https://www.adidas.com/us/myaccount-show?fromlogin=true':
-                        print('Logged In')
+                        print('Login Success!')
                         checker = driver.find_element_by_css_selector('.myaccount-your-items-product a').get_attribute('href')
                         print(checker)
                         CheckerTest = input("Is this the shoe you want? Y or N:")
@@ -233,18 +233,18 @@ for order in orders:
                                 driver.find_element_by_xpath('//*[@id="shippingForm"]/div[2]/ng-form/div[2]/div/div[3]/div[6]/div[1]/div[2]/div[%s]' % statenum).click()
                                 driver.find_element_by_xpath('//*[@id="shippingForm"]/div[2]/ng-form/div[6]/div/button').click();
                                 time.sleep(1)
-                                print ('Processing Info, Almost Done...')
+                                print ('Processing info, almost done...')
                                 driver.find_element_by_id("dwfrm_payment_creditCard_number").send_keys(order['credit_card_number'])
                                 driver.find_element_by_xpath('//*[@id="dwfrm_payment_creditCard_month_display_field"]').click()
-                                time.sleep(4)
-                                driver.find_element_by_xpath('//*[@id="dwfrm_payment"]/fieldset/div/div[4]/div[1]/div/div/div[2]/div/ul/li[%(ccmonth)i]' %
+                                time.sleep(2)
+                                driver.find_element_by_xpath('//*[@id="dwfrm_payment"]/fieldset/div/div[4]/div[1]/div/div/div[2]/div[%(ccmonth)i]' %
                                                              {'ccmonth': ccmonth}).click()
-                                driver.find_element_by_xpath('//*[@id="dwfrm_payment"]/fieldset/div/div[4]/div[3]/div[1]/div/div/a').click()
-                                time.sleep(4)
-                                driver.find_element_by_xpath("//*[@id='dwfrm_payment']/fieldset/div/div[4]/div[3]/div[1]/div/div/div/div[2]/div/ul/li[%(ccyear)i]" %
+                                driver.find_element_by_xpath('//*[@id="dwfrm_payment_creditCard_year_display_field"]').click()
+                                time.sleep(2)
+                                driver.find_element_by_xpath('//*[@id="dwfrm_payment"]/fieldset/div/div[4]/div[2]/div/div/div[2]/div[%(ccyear)i]' %
                                                              {'ccyear': ccyear}).click()
-                                driver.find_element_by_id("dwfrm_payment_creditCard_cvn").send_keys(order['credit_card_crn'])
-                                driver.find_element_by_xpath('//*[@id="content"]/div/div[1]/div[5]/div/button').click()
+                                driver.find_element_by_id('dwfrm_payment_creditCard_cvn').send_keys(order['credit_card_crn'])
+                                driver.find_element_by_xpath('//*[@id="content"]/div/div[1]/div[4]/div/button').click()
                                 time.sleep(10)
                                 print ('Shoe copped! Check your email.')
                 if Test != 'https://www.adidas.com/us/myaccount-show?fromlogin=true':
