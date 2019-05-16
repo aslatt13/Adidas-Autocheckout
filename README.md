@@ -7,7 +7,7 @@ This script requires python and chrome webdriver.
 	
 2. Unzip the file.
 
-3. Edit the config file with your desired credentials.
+3. [Download chromedriver](http://chromedriver.chromium.org/downloads) for your version of chrome and drag the exe into the script folder.
 
 4. cd <script folder location
 
@@ -17,7 +17,7 @@ This script requires python and chrome webdriver.
 		
 	pip install selenium
 	
-6. [Download chromedriver](http://chromedriver.chromium.org/downloads) for your version of chrome and drag the exe into the script folder.
+6. Edit the config file with your desired credentials.
 		
 7. Now edit the config file with your desired credentials.
 	
