@@ -38,3 +38,4 @@ Let it run, and happy cooking!
 # To-Do List
 
 1. Discord webhook cart integration
+2. Headless mode
