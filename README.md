@@ -27,7 +27,7 @@ This script requires python and chrome webdriver.
 		
 	  	password (adidas cart password)
 		
-	9. The script will open chrome browser, login, and navigate to the cart. It will ask if the item in cart is correct and 		     if you want to proceed.
+	9. The script will open chrome browser, login, and navigate to the cart. It will ask if you want to continue.
 	
 	10. If so, it will fill in you details automatically.
 	
