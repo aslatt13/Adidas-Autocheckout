@@ -32,3 +32,7 @@ This script requires python and chrome webdriver.
 	10. If so, it will fill in you details automatically.
 	
 Let it run, and happy cooking!
+
+# To-Do List
+
+1. Discord webhook cart integration
