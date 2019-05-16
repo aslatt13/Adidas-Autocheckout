@@ -9,7 +9,7 @@ This script requires python and chrome webdriver.
 
 3. [Download chromedriver](http://chromedriver.chromium.org/downloads) for your version of chrome and drag the exe into the script folder.
 
-4. cd <script folder location
+4. cd <script folder location>
 
 5. Install dependencies:
 	
