@@ -232,7 +232,7 @@ for order in orders:
                                 time.sleep(1)
                                 driver.find_element_by_xpath('//*[@id="shippingForm"]/div[2]/ng-form/div[2]/div/div[3]/div[6]/div[1]/div[2]/div[%s]' % statenum).click()
                                 driver.find_element_by_xpath('//*[@id="shippingForm"]/div[2]/ng-form/div[6]/div/button').click();
-                                time.sleep(1)
+                                time.sleep(2)
                                 print ('Processing info, almost done...')
                                 driver.find_element_by_id("dwfrm_payment_creditCard_number").send_keys(order['credit_card_number'])
                                 driver.find_element_by_xpath('//*[@id="dwfrm_payment_creditCard_month_display_field"]').click()
