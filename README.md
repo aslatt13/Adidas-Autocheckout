@@ -35,6 +35,11 @@ This script requires python and chrome webdriver.
 	
 Let it run, and happy cooking!
 
+# Video Tutorial
+
+[![Tutorial](http://img.youtube.com/vi/Xx4EvL177MM/0.jpg)](http://www.youtube.com/watch?v=Xx4EvL177MM)
+
+
 # To-Do List
 
 1. Discord webhook cart integration
