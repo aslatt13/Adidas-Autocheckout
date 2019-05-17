@@ -1,3 +1,5 @@
+Resurrected a dead Adidas script. Enjoy.
+
 # Adidas-Autocheckout
 An adidas autocheckout script using python and webdriver.
 
