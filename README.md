@@ -9,7 +9,7 @@ This script requires python and chrome webdriver.
 	
 2. Unzip the file.
 
-3. [Download chromedriver](http://chromedriver.chromium.org/downloads) for your version of chrome and drag the exe into the script folder.
+3. [Download chromedriver](http://chromedriver.chromium.org/downloads) for your version of chrome and drag the exe into the script folder. (May need to add to PATH aswell).
 
 4. cd <script folder location>
 
