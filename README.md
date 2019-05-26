@@ -20,20 +20,18 @@ This script requires python and chrome webdriver.
 	pip install selenium
 	
 6. Edit the config file with your desired credentials.
-		
-7. Now edit the config file with your desired credentials.
 	
-8. Run 'python autocheckout.py'
+7. Run 'python autocheckout.py'
 	
-9. Login via the CLI.
+8. Login via the CLI.
 	
 	  username (adidas cart email)
 		
 	  password (adidas cart password)
 		
-10. The script will open chrome browser, login, and navigate to the cart. It will ask if you want to continue.
+9. The script will open chrome browser, login, and navigate to the cart. It will ask if you want to continue.
 	
-11. If so, it will fill in you details automatically.
+10. If so, it will fill in you details automatically.
 	
 Let it run, and happy cooking!
 
