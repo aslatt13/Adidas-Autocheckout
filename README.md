@@ -3,6 +3,10 @@ Resurrected a dead Adidas script. Shoutout Nathaniel for the help. Enjoy.
 # Adidas-Autocheckout
 An adidas autocheckout script using python and webdriver.
 
+# Video Tutorial
+
+[![Tutorial](http://img.youtube.com/vi/Xx4EvL177MM/0.jpg)](http://www.youtube.com/watch?v=Xx4EvL177MM)
+
 This script requires python and chrome webdriver.
 
 1. Download the script to your desired location.
@@ -35,9 +39,7 @@ This script requires python and chrome webdriver.
 	
 Let it run, and happy cooking!
 
-# Video Tutorial
 
-[![Tutorial](http://img.youtube.com/vi/Xx4EvL177MM/0.jpg)](http://www.youtube.com/watch?v=Xx4EvL177MM)
 
 
 # To-Do List
